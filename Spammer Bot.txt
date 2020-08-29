@@ -1,0 +1,22 @@
+import pyautogui
+ from time import sleep
+ 
+
+ time = 0
+ while time != 10:
+	Time += 1
+	Sleep(1)
+	Print("Spammer Waiting..." + Str(Time))
+
+
+      def spam(msg, maxMsg):
+           count = 0
+          while count != maxMsg:
+            count += 1
+            print("send message: " + Str(count))
+            pyautogui.write(msg)
+            pyautogui.press("enter")
+            if count == 5 or count == 5*2 or count == 5*3:
+               sleep(8)
+
+              spam("Spammer Made By Stealth", 10)
